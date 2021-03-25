@@ -1,0 +1,9 @@
+SELECT [ProductId]
+FROM [AdventureWorks].[Product]
+GROUP BY [ProductId]
+ORDER BY CASE 
+		WHEN [ProductId] IS NULL
+			THEN 1
+		ELSE 0
+		END
+	,[ProductId]

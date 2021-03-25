@@ -1,0 +1,4 @@
+parameter[0] = (@Param1_EQUAL, One)
+parameter[1] = (@Param3_START, 3)
+parameter[2] = (@Param3_END, 4)
+parameter[3] = (@Param5_GREATER, 600)

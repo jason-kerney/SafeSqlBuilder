@@ -1,0 +1,3 @@
+"[Filter1] IS NULL", "[Filter1] = @Filter1_EQUAL"
+"[Filter2] IS NULL", "[Filter2] = @Filter2_EQUAL"
+"[Filter3] IS NULL", "[Filter3] = @Filter3_EQUAL"

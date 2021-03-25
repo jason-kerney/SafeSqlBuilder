@@ -1,0 +1,3 @@
+parameter[0] = ("@Name_IN", Widget-D, Enameled Widget)
+parameter[1] = ("@ProductLine_IN", (Blanks), Books, Widgets, Tools, Food)
+parameter[2] = ("@Color_EQUAL", #AB558A)

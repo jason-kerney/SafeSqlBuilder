@@ -1,0 +1,15 @@
+SELECT [ProductId]
+	,[Color]
+	,[Name]
+	,[ProductNumber]
+	,[ProductLine]
+	,[StandardCost]
+FROM [AdventureWorks].[Product]
+WHERE ([ProductLine] = @ProductLine_EQUAL)
+	AND ([Name] = @Name_EQUAL)
+ORDER BY CASE 
+		WHEN [ProductNumber] IS NULL
+			THEN 1
+		ELSE 0
+		END
+	,[ProductNumber]

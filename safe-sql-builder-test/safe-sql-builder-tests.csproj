@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SafeSqlBuilder.Tests</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DefineConstants>TRACE;$(SILENT);</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ApprovalTests" Version="5.4.5" />
+    <PackageReference Include="ApprovalUtilities" Version="5.4.5" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
+    <PackageReference Include="Moq" Version="4.16.0" />
+    <PackageReference Include="PoorMansTSQLFormatter" Version="1.4.3.1" />
+    <PackageReference Include="StructuralEqualityAssessor" Version="1.1.2" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\safe-dynamic-sql-generator\safe-dynamic-sql-generator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="QueryDataObject.ClausesShould.ShouldUseClauseFactoryToReturnClauses.approved.txt">
+      <DependentUpon>QueryDataObject.ClausesShould.cs</DependentUpon>
+    </None>
+    <None Update="ValidColumnsShould.ShouldGetValidColumnsFromInstancePropertyNames.approved.txt">
+      <DependentUpon>ValidColumnsShould.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+
+</Project>

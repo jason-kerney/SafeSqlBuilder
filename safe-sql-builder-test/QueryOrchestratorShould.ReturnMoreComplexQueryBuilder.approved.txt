@@ -1,0 +1,18 @@
+SELECT [ProductId]
+	,[Name]
+	,[ProductNumber]
+	,[ProductLine]
+	,[ReorderPoint]
+	,[StandardCost]
+	,[MakeFlag]
+	,[Color]
+FROM [AdventureWorks].[Product]
+WHERE ([Name] IN @Name_IN)
+	AND ([ProductLine] IN @ProductLine_IN)
+	AND ([Color] = @Color_EQUAL)
+ORDER BY CASE 
+		WHEN [ProductNumber] IS NULL
+			THEN 1
+		ELSE 0
+		END
+	,[ProductNumber]

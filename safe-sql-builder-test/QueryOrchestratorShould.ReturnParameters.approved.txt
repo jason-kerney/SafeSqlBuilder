@@ -1,0 +1,2 @@
+parameter[0] = (@ProductLine_EQUAL, Canceled)
+parameter[1] = (@StandardCost_EQUAL, 50)
