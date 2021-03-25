@@ -9,6 +9,7 @@
     (table-of-contents
         (section-main "./Summary.md")
         (section-main "./Use.md")
+        (section-main "./contributers.md")
         (section-main "./PossibleFuture.md")
     )
 /bl-->

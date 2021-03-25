@@ -7,7 +7,8 @@
 
 - [Section 1: Summary](#user-content-summary)
 - [Section 2: Use](#user-content-use)
-- [Section 3: Enhancements up for discussion](#user-content-enhancements-up-for-discussion)
+- [Section 3: Thanks to all Contributors](#user-content-thanks-to-all-contributors)
+- [Section 4: Enhancements up for discussion](#user-content-enhancements-up-for-discussion)
 
 ## Summary ##
 
@@ -36,7 +37,7 @@ Example:
 ```c#
 var validColumns = new ValidColumns(new []
 {
-    "ProductId",
+    "ProductID",
     "Name",
     "ProductNumber",
     "Color",
@@ -115,6 +116,31 @@ ORDER BY CASE
 
 All filter values are parameterized. Which brings me to the second item returned from the ```BuildQuey``` method. The parameters are returned as an ```IEnumerable<(string, object)>``` where the string is the parameter name, including the ```@``` and an object holding the value to be passed to your database query manager or ORM.
 
+    
+
+## Thanks to all Contributors ##
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/edf-re"><img src="https://avatars.githubusercontent.com/u/13739273?v=4?s=100" width="100px;" alt=""/><br /><sub><b>EDF Renewables</b></sub></a><br /><a href="#financial-edf-re" title="Financial">💵</a></td>
+    <td align="center"><a href="http://www.chrisstead.net/"><img src="https://avatars.githubusercontent.com/u/4184510?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Stead</b></sub></a><br /><a href="#ideas-cmstead" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/patrickhigh"><img src="https://avatars.githubusercontent.com/u/45110206?v=4?s=100" width="100px;" alt=""/><br /><sub><b>patrickhigh</b></sub></a><br /><a href="https://github.com/jason-kerney/SafeSqlBuilder/commits?author=patrickhigh" title="Code">💻</a> <a href="#ideas-patrickhigh" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
     
 
 ## Enhancements up for discussion ##
