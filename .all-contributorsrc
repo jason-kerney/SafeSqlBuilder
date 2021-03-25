@@ -4,7 +4,7 @@
   "repoType": "github",
   "repoHost": "",
   "files": [
-    "./documents/condributers.md"
+    "./documents/contributers.md"
   ],
   "imageSize": 100,
   "commit": true,
@@ -26,6 +26,15 @@
       "profile": "http://www.chrisstead.net/",
       "contributions": [
         "ideas"
+      ]
+    },
+    {
+      "login": "patrickhigh",
+      "name": "patrickhigh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45110206?v=4",
+      "profile": "https://github.com/patrickhigh",
+      "contributions": [
+        "code"
       ]
     }
   ],
