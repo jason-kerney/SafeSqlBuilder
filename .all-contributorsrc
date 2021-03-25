@@ -1,0 +1,24 @@
+{
+  "projectName": "SafeSqlBuilder",
+  "projectOwner": "jason-kerney",
+  "repoType": "github",
+  "repoHost": "",
+  "files": [
+    "condributers.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "edf-re",
+      "name": "EDF Renewables",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13739273?v=4",
+      "profile": "https://github.com/edf-re",
+      "contributions": [
+        "financial"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
