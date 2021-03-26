@@ -37,6 +37,15 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "seventumbles",
+      "name": "Mike Lazar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1326703?v=4",
+      "profile": "https://github.com/seventumbles",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
