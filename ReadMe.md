@@ -102,8 +102,7 @@ You will then create an instance of the ```QueryOrchestrotor``` and pass it both
 
 ```c#
 var builder = new QueryOrchestrator();
-var (sqlQueryGenerator, parameters) = builder.BuildQuery(query, validColumns, "[AdventureWorks].[Product]");
-var sql = sqlQueryGenerator.ToString();
+var (sqlQuery, parameters) = builder.BuildQuery(query, validColumns, "[AdventureWorks].[Product]");
 ```
 
 The SQL generated for the query is:
