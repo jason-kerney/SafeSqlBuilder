@@ -5,10 +5,18 @@
 
 ## Table Of Contents ##
 
-- [Section 1: Summary](#user-content-summary)
-- [Section 2: Use](#user-content-use)
-- [Section 3: Thanks to all Contributors](#user-content-thanks-to-all-contributors)
-- [Section 4: Enhancements up for discussion](#user-content-enhancements-up-for-discussion)
+- [Section 1: Badges](#user-content-badges)
+- [Section 2: Summary](#user-content-summary)
+- [Section 3: Use](#user-content-use)
+- [Section 4: Thanks to all Contributors](#user-content-thanks-to-all-contributors)
+- [Section 5: Enhancements up for discussion](#user-content-enhancements-up-for-discussion)
+
+## Badges ##
+![.NET Core](https://github.com/jason-kerney/SafeSqlBuilder/workflows/.NET%20Core/badge.svg)
+[![License](https://img.shields.io/github/license/jason-kerney/SafeSqlBuilder)](https://github.com/jason-kerney/SafeSqlBuilder/blob/main/LICENSE)
+[![Nuget](https://img.shields.io/nuget/v/safe-dynamic-sql-generator.svg)](https://www.nuget.org/packages/safe-dynamic-sql-generator/)
+
+    
 
 ## Summary ##
 
