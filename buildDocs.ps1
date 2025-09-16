@@ -1,1 +1,1 @@
-booklisp ./documents/readme.md ./ReadMe.md
+node ./node_modules/doculisp/dist/index.js ./documents/_project.dlproj
