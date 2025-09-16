@@ -12,7 +12,7 @@
     },
     "commitPrefix": {
         "separator": " ",
-        "validator": "#\\d{4,12} .{0,50}",
+        "validator": ".{0,50}",
         "prefixes": {
             "F": "Feature (<= 8 LoC)",
             "B": "Bug fix (<= 8 LoC)",
