@@ -28,5 +28,13 @@
             "R!!": "Non-provable refactoring",
             "***": "Does not compile -- intermediate step"
         }
-    }
+    },
+    "verboseMode": false,
+    "aliases": [
+        {
+            "name": "docs",
+            "command": "cls; node ./node_modules/doculisp/dist/index.js ./documents/_project.dlproj"
+        }
+    ],
+    "collaborators": []
 }

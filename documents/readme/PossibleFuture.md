@@ -1,8 +1,4 @@
-<!--bl
-    (filemeta
-        (title "Enhancements up for discussion")
-    )
-/bl-->
+<!-- (dl (section-meta Enhancements up for discussion)) -->
 
 These are ideas we have had, but have not investigated yet. As such these are not promises of future features, only things we are considering.
 

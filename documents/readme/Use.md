@@ -1,8 +1,4 @@
-<!--bl
-    (filemeta
-        (title "Use")
-    )
-/bl-->
+<!-- (dl (section-meta Use)) -->
 The developer defines the columns that are allowed as part of the query in an object called ```ValidColumns```.
 
 Example:

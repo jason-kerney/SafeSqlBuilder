@@ -7,9 +7,9 @@
     "test": "tests"
   },
   "devDependencies": {
+    "doculisp": "^3.4.8",
     "husky": "^4.3.0"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://edf-re@dev.azure.com/edf-re/SoftwareEngineering/_git/project-svc"

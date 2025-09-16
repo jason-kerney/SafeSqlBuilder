@@ -1,10 +1,4 @@
-<!--bl
-    (filemeta
-        (title "Thanks to all Contributors")
-    )
-/bl-->
-
-## Contributors ✨
+<!-- (dl (section-meta Thanks to all Contributors ✨)) -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 

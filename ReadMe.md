@@ -1,22 +1,27 @@
+<!-- GENERATED DOCUMENT DO NOT EDIT! -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 
-<!-- GENERATED DOCUMENT! DO NOT EDIT! -->
+<!-- Compiled with doculisp https://www.npmjs.com/package/doculisp -->
+<!-- Written By: Patrick High -->
+<!-- Written By: Jason Kerney -->
+<!-- Written By: Mike Lazar -->
+
 # Safe-SQL-Builder #
 
+## Table of Contents ##
 
-## Table Of Contents ##
-
-- [Section 1: Badges](#user-content-badges)
-- [Section 2: Summary](#user-content-summary)
-- [Section 3: Use](#user-content-use)
-- [Section 4: Thanks to all Contributors](#user-content-thanks-to-all-contributors)
-- [Section 5: Enhancements up for discussion](#user-content-enhancements-up-for-discussion)
+1. Section: [Badges](#badges)
+2. Section: [Summary](#summary)
+3. Section: [Use](#use)
+4. Section: [Thanks to all Contributors ✨](#thanks-to-all-contributors-)
+5. Section: [Enhancements up for discussion](#enhancements-up-for-discussion)
 
 ## Badges ##
+
 ![.NET Core](https://github.com/jason-kerney/SafeSqlBuilder/workflows/.NET%20Core/badge.svg)
 [![License](https://img.shields.io/github/license/jason-kerney/SafeSqlBuilder)](https://github.com/jason-kerney/SafeSqlBuilder/blob/main/LICENSE)
 [![Nuget](https://img.shields.io/nuget/v/safe-dynamic-sql-generator.svg)](https://www.nuget.org/packages/safe-dynamic-sql-generator/)
-
-    
 
 ## Summary ##
 
@@ -36,9 +41,8 @@ Safe Dynamic SQL Builder, allows you to preconfigure the shape of the table, wit
 
 Safe Dynamic SQL Builder will **_never_** use client strings in building custom queries. The query object is only a specification for the query to be built.
 
-    
-
 ## Use ##
+
 The developer defines the columns that are allowed as part of the query in an object called ```ValidColumns```.
 
 Example:
@@ -53,6 +57,7 @@ var validColumns = new ValidColumns(new []
     "ProductLine",
 });
 ```
+
 ----
 
 > **WARNING:** This object is what protects you from SQL Injection. It is intended to be predefined by the programmer and should _NEVER_ contain strings from an untrusted source.
@@ -123,17 +128,10 @@ ORDER BY CASE
 
 All filter values are parameterized. Which brings me to the second item returned from the ```BuildQuey``` method. The parameters are returned as an ```IEnumerable<(string, object)>``` where the string is the parameter name, including the ```@``` and an object holding the value to be passed to your database query manager or ORM.
 
-    
-
-## Thanks to all Contributors ##
-
-## Contributors ✨
+## Thanks to all Contributors ✨ ##
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 <table>
   <tr>
     <td align="center"><a href="https://github.com/edf-re"><img src="https://avatars.githubusercontent.com/u/13739273?v=4?s=100" width="100px;" alt=""/><br /><sub><b>EDF Renewables</b></sub></a><br /><a href="#financial-edf-re" title="Financial">💵</a></td>
@@ -143,13 +141,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
 </table>
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-    
 
 ## Enhancements up for discussion ##
 
@@ -170,7 +162,10 @@ These are ideas we have had, but have not investigated yet. As such these are no
 * String Parsing of value to type (aka date string to date)
 * Coalescing of values
 * Escaping brackets in column names
-    
 
-<!-- GENERATED DOCUMENT! DO NOT EDIT! -->
-    
+<!-- Written By: Patrick High -->
+<!-- Written By: Jason Kerney -->
+<!-- Written By: Mike Lazar -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- GENERATED DOCUMENT DO NOT EDIT! -->

@@ -1,0 +1,20 @@
+(section-meta
+    (title Safe-SQL-Builder)
+    (author Patrick High)
+    (author Jason Kerney)
+    (author Mike Lazar)
+    (include
+        (Section ./Badges.md)
+        (Section ./Summary.md)
+        (Section ./Use.md)
+        (Section ./contributers.md)
+        (Section ./PossibleFuture.md)
+    )
+)
+
+(content
+    (toc
+        (label Table of Contents)
+        (style numbered-labeled)
+    )
+)

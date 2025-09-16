@@ -1,8 +1,4 @@
-<!--bl
-    (filemeta
-        (title "Summary")
-    )
-/bl-->
+<!-- (dl (section-meta Summary)) -->
 
 The ORM enhancement you didn't know you needed.
 
